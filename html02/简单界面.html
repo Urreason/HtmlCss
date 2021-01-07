@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+</head>
+<body>
+    <h4>AAAAAAya</h4>
+    <table width="500">
+        <tr>
+            <!-- 其中name是为了radio单选。 for与id是为了点击图片也可以选择。 -->
+            <td>性别：</td> <td><input type="radio" name = "sex" id="man"/><label for="man"><img src="img.png" />  男</label></td>
+            <td><input type="radio"  name = "sex" id="nv"/>  <label for ="nv">女<img src="img1.png" /></label></td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td>生日：</td>  
+            <td>
+                <select>
+                    <option>--请选择年份</option>
+                    <option>2001</option> 
+                    <option>2002</option>
+                </select>
+            </td>
+            <td>
+                <select>
+                    <option>--请选择月份</option>
+                    <option>1</option> 
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </td>
+
+
+        </tr>
+        <!-- 第三行 -->
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text" value="beijing"> </td>
+        </tr>
+        <!-- 第四行 -->
+        <tr>
+            <td>状况</td>
+            <td><input type="radio" name = "zk" id ="hao" checked="checked"/><label for="hao">good</label> 
+                <input type="radio" name="zk" id="bh" /><label for="bh">bad</label> 
+            </td>
+        </tr>
+        <!-- 第五行 -->
+        <tr>
+            <td>学历</td>
+            <td><input type="text" value="输入你的学历"/></td>
+        </tr>
+        <!-- 第六行 -->
+        <tr>
+            <td>喜欢的类型</td>
+            <td>
+                <input type="checkbox" name = "love" />1
+                <input type="checkbox" name = "love" />2
+                <input type="checkbox" name = "love" checked="checked" />3
+
+            </td>
+            
+        </tr>
+        <!-- 第七行 -->
+        <tr>
+            <td>introduce</td>
+            <td>
+                <textarea>写一下</textarea>
+            </td>
+            
+        </tr>
+        <!-- 第八行 -->
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value = "免费注册" />
+            </td>
+            
+        </tr>
+        <!-- 第九行 -->
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" checked="checked">  我同意
+            </td>
+            
+        </tr>
+        <!-- 最后一行 -->
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承诺</h5>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </td>
+            
+        </tr>
+
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 可以反复使用该代码来清除浮动，这是前端的一个标准操作 */
+        .clearfix: before,
+        .clear: after {
+            content: "";
+            display: table;
+        }
+        .clearfix: after {
+            clear: both;
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
